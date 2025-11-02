@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="600.0"
+            scaleShape="false" style="-fx-background-color: #ccd6e6;" xmlns="http://javafx.com/javafx/17.0.12"
+            xmlns:fx="http://javafx.com/fxml/1" fx:controller="lv.kauguri.controllers.MyController">
+    <children>
+        <Label alignment="CENTER" layoutX="210.0" layoutY="32.0" prefHeight="35.0" prefWidth="181.0" text="JavaFx" textAlignment="CENTER">
+            <font>
+                <Font name="Calibri Bold" size="25.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="textField" alignment="CENTER_LEFT" layoutX="145.0" layoutY="132.0" prefHeight="35.0" prefWidth="314.0"
+                   style="-fx-background-color: #f0f4f8;"/>
+        <Label alignment="CENTER" layoutX="129.0" layoutY="97.0" prefHeight="35.0" prefWidth="130.0" text="Text" textAlignment="CENTER">
+            <font>
+                <Font name="Calibri Bold" size="18.0"/>
+            </font>
+        </Label>
+        <Button fx:id="ok" alignment="CENTER" contentDisplay="CENTER" layoutX="154.0" layoutY="363.0" mnemonicParsing="false"
+                onAction="#onAction" prefHeight="52.0" prefWidth="174.0" style="-fx-background-color: #87cee0; -fx-background-radius: 5;"
+                text="ok" textFill="WHITE" AnchorPane.leftAnchor="154.0" AnchorPane.rightAnchor="219.0">
+            <font>
+                <Font name="System Bold" size="20.0"/>
+            </font>
+            <cursor>
+                <Cursor fx:constant="HAND"/>
+            </cursor>
+        </Button>
+    </children>
+</AnchorPane>
