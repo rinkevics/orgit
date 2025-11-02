@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09af1aa2-ba21-474b-9ae9-e6158a4475e4" name="Changes" comment="first">
+    <list default="true" id="09af1aa2-ba21-474b-9ae9-e6158a4475e4" name="Changes" comment="list of git projects">
+      <change afterPath="$PROJECT_DIR$/.claude/settings.local.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TODO.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/lv/kauguri/GitService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lv/kauguri/GitServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/lv/kauguri/GitTestSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/lv/kauguri/controllers/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lv/kauguri/controllers/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/lv/kauguri/views/index.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/lv/kauguri/views/index.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +26,13 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,34 +81,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Application.MainApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.full.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.test [package].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/wwork/orgit&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Application.MainApplication.executor": "Run",
+    "JUnit.GitServiceTest.executor": "Run",
+    "JUnit.GitTestSetup.executor": "Debug",
+    "JUnit.GitTestSetup.testGitDirectoriesCreated.executor": "Run",
+    "Maven.full.executor": "Run",
+    "Maven.test [package].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/wwork/orgit",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\wwork\orgit" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wwork\orgit\src\test\resources\repos" />
+    </key>
   </component>
-  <component name="RunManager" selected="Maven.full">
+  <component name="RunManager" selected="JUnit.GitTestSetup">
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <envs>
         <env name="--enable-native-access" value="javafx.graphics" />
@@ -112,6 +128,52 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GitServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.kauguri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv.kauguri" />
+      <option name="MAIN_CLASS_NAME" value="lv.kauguri.GitServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GitTestSetup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.kauguri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv.kauguri" />
+      <option name="MAIN_CLASS_NAME" value="lv.kauguri.GitTestSetup" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GitTestSetup.testGitDirectoriesCreated" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lv.kauguri.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="lv.kauguri" />
+      <option name="MAIN_CLASS_NAME" value="lv.kauguri.GitTestSetup" />
+      <option name="METHOD_NAME" value="testGitDirectoriesCreated" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -150,11 +212,17 @@
     </configuration>
     <list>
       <item itemvalue="Application.MainApplication" />
+      <item itemvalue="JUnit.GitServiceTest" />
+      <item itemvalue="JUnit.GitTestSetup" />
+      <item itemvalue="JUnit.GitTestSetup.testGitDirectoriesCreated" />
       <item itemvalue="Maven.full" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GitTestSetup" />
+        <item itemvalue="JUnit.GitServiceTest" />
         <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.GitTestSetup.testGitDirectoriesCreated" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +271,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762092742406</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="create list of items">
+      <option name="closed" value="true" />
+      <created>1762098658646</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762098658646</updated>
+    </task>
+    <task id="LOCAL-00006" summary="list of git projects">
+      <option name="closed" value="true" />
+      <created>1762107041813</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762107041813</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -224,6 +308,8 @@
     <MESSAGE value="a" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="first" />
-    <option name="LAST_COMMIT_MESSAGE" value="first" />
+    <MESSAGE value="create list of items" />
+    <MESSAGE value="list of git projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="list of git projects" />
   </component>
 </project>
